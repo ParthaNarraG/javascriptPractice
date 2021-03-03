@@ -25,4 +25,5 @@ for(let i=newVar.length-1;i>=0;i--){
     newVar.push(newVar[i]);
 }
 newVar.splice(0,(newVar.length/2));
-console.log(newVar.join(""));
+newVar=newVar.join("");
+console.log(newVar);
