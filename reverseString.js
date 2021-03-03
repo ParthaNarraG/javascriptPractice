@@ -16,3 +16,13 @@ for(let i=rest.length-1;i>=0;i--){
     string+=rest.pop() 
 }
 console.log(string);
+
+//WITHOUT USING ANY THIRD VARIABLES
+
+let newVar="Partha Narra";
+newVar=newVar.split("");
+for(let i=newVar.length-1;i>=0;i--){
+    newVar.push(newVar[i]);
+}
+newVar.splice(0,(newVar.length/2));
+console.log(newVar.join(""));
