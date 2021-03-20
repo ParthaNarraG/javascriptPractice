@@ -46,3 +46,25 @@ Object.isExtensible(obj)
 
 //is method determines whether two values are same or not
 Object.is("val1","val2")
+
+
+
+// To delete a key from a objec without using delete keyword
+
+/* const object1 = {
+    a: 'somestring',
+    b: 42
+  };
+  
+  let arr=Object.entries(object1);
+  console.log(arr)
+  
+  for(let i=0;i<arr.length;i++){
+    for(let j=0;j<arr[i].length;j++){
+      console.log(arr[i][j])
+      if(arr[i][j]==="a"){
+        arr.splice(i,1);
+        console.log(arr)
+      }
+    }
+  }  */    
