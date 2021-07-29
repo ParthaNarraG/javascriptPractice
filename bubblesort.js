@@ -13,4 +13,15 @@ for(let i=0;i<a.length;i++){
         break;
     }
 }
-console.log(a);
+// console.log(a);
+
+//To use normal array sort function
+a.sort((a,b)=>{
+    return a-b;
+})
+
+//Deep Copy
+/* let b=[...a];
+b[2]="three";
+console.log(b);
+console.log(a); */
